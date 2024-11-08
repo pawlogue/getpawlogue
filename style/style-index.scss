@@ -3,7 +3,7 @@ $m-media: 900px;
 
 /* ---------- Typography ---------- */
 @font-face {
-    font-family: "Gluten", sans-serif;
+    font-family: "Gluten";
     src: url("../fonts/Gluten/Gluten-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
@@ -49,4 +49,5 @@ p.copyright {
 
 iframe {
     margin: 0 auto;
+    padding-bottom: 24px;
 }
