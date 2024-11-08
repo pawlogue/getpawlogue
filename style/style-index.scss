@@ -1,7 +1,10 @@
+/* ---------- Variables ---------- */
+$m-media: 900px;
+
 /* ---------- Typography ---------- */
 @font-face {
     font-family: "Gluten", sans-serif;
-    src: url("font/Gluten-Regular.ttf") format("truetype");
+    src: url("../fonts/Gluten/Gluten-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
   }
@@ -16,6 +19,10 @@ body {
     background-color: white;
     border-radius: 24px;
     padding: 48px;
+
+    @media (max-width: $m-media) {
+        padding: auto 0 auto 0;
+      }
 }
 
 .logo {
@@ -23,10 +30,14 @@ body {
     margin: 0 auto;
 }
 
-.newsletter {
+img.newsletter {
     width: 40vw;
     display: block;
     margin: 0 auto;
+
+    @media (max-width: $m-media) {
+        width: 50%;
+      }
 }
 
 p.copyright {
