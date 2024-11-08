@@ -21,7 +21,8 @@ body {
     padding: 48px;
 
     @media (max-width: $m-media) {
-        padding: auto 0px auto 0px;
+        padding-right: 24px;
+        padding-left: 24px;
       }
 }
 
@@ -31,12 +32,12 @@ body {
 }
 
 img.newsletter {
-    width: 40vw;
+    width: 50vw;
     display: block;
     margin: 0 auto;
 
     @media (max-width: $m-media) {
-        width: 50%;
+        width: 90%;
       }
 }
 
