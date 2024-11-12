@@ -3,13 +3,20 @@ $m-media: 900px;
 $font-family: "Gluten", serif;
 
 /* ---------- Typography ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
 
 @font-face {
     font-family: "Gluten", serif;
     src: url("/fonts/Gluten/Gluten-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Gluten", serif;
+    src: url("/fonts/Gluten/Gluten-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: medium;
   }
 
 /* ---------- Content ---------- */
@@ -29,9 +36,36 @@ body {
       }
 }
 
-.logo {
+img.logo {
     display: block;
     margin: 0 auto;
+    width: 150px;
+}
+
+h1, p {
+    font-family: $font-family;
+    color: #7D5C0F;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 42px;
+}
+
+p {
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.newsletter-content {
+    // width: 35%;
+    margin: 0 auto;
+    padding: 24px 0 0 0;
+
+    @media (max-width: $m-media) {
+        width: 100%;
+      }
 }
 
 img.newsletter {
