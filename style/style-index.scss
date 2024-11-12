@@ -3,8 +3,7 @@ $m-media: 900px;
 $font-family: "Gluten", serif;
 
 /* ---------- Typography ---------- */
-// @import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
 @font-face {
     font-family: "Gluten", serif;
     src: url("/fonts/Gluten/Gluten-Regular.ttf") format("truetype");
@@ -12,6 +11,7 @@ $font-family: "Gluten", serif;
     font-style: normal;
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@600&display=swap');
   @font-face {
     font-family: "Gluten", serif;
     src: url("/fonts/Gluten/Gluten-SemiBold.ttf") format("truetype");
